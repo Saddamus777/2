@@ -1,0 +1,32 @@
+@import './normalize/normalize.scss';
+@import './components/button.scss';
+@import 'components/profC';
+@import './components/team.scss';
+
+.bg {
+	background: $mainBg;
+}
+.bg-gray {
+	background: #f4f5f6;
+}
+
+// Header
+@import './components/header.scss';
+
+//  CreateX
+@import './components/createx.scss';
+
+//  Courses
+@import './components/courses.scss';
+
+// Our benefits
+@import './components/benefits.scss';
+
+// Our events
+@import './components/workshops.scss';
+
+// Certificate
+@import './components/certificate.scss';
+
+// Team
+@import './components/team.scss';
