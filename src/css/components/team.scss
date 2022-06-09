@@ -63,24 +63,44 @@
 			display: flex;
 			justify-content: flex-end;
 			.next {
-				color: white;
+				// right: 40px;
+				color: rgb(26, 13, 13);
 				font-size: 40px;
 				display: flex;
 				justify-content: center;
 				align-items: center;
 				padding: 12px;
 				line-height: 0;
-				background: #ff3f3a;
+				background: white;
 				text-align: center;
 				border-radius: 50%;
+				width: 48px;
+				height: 48px;
+				transition: all 0.7s;
+				&::after {
+					content: '';
+				}
+				&:hover {
+					background:  white;
+					background:  #ff3f3a;
+				}
 			}
 			.prev {
-				color: white;
+				color: rgb(26, 13, 13);
 				font-size: 40px;
 				width: 48px;
 				height: 48px;
+				background: white;
 				text-align: center;
 				border-radius: 50%;
+				transition: all 0.7s;
+				&::after {
+					content: '';
+				}
+				&:hover {
+					background:  white;
+					background:  #ff3f3a;
+				}
 			}
 		}
 	}
